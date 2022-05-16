@@ -95,7 +95,7 @@ things = str([1, 2, 3, 4, 5])
 for thing in things:
     print(thing)
 '''
-
+'''
 things = [1, 2, 3, 4, 5]
 for thing in things:
         print(thing)
@@ -106,3 +106,27 @@ after = []
 for number in before:
     after.extend(number)
 print(after)
+'''
+input = ['1', '2', '3']
+numbers = []
+for string in input:
+    numbers.append(int(string))
+print("numbers",numbers)
+print("str", string)    
+result = 0
+for n in numbers:
+    result += n
+print("their sum is", result)
+
+numbers = ['1', '2', '3']
+for number in numbers:
+    numbers[numbers.index(number)] = int(number)
+print(numbers)
+
+numbers = ['1', '2', '3']
+new_numbers = []
+for number in numbers:
+    new_numbers.append(int(number))
+
+
+
